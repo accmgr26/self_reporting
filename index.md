@@ -7,12 +7,10 @@ Welcome to the **self_reporting** portal.
 
 ### Latest Reports
 <ul>
-  <div class="report-list">
   {% for post in site.posts %}
-    <a href="{{ post.url }}" class="report-card">
-      <strong>{{ post.date | date: "%B %d, %Y" }}</strong> — {{ post.title }}
-    </a>
+    <li>
+      <a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }} — {{ post.title }}</a>
+    </li>
   {% endfor %}
-</div>
-
 </ul>
+
