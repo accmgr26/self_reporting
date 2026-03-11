@@ -1,0 +1,15 @@
+body { 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #333; line-height: 1.6; padding: 40px; background-color: #f4f7f6;
+}
+.container { 
+  max-width: 900px; margin: 0 auto; background: white; 
+  padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+nav { margin-bottom: 40px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+nav a { text-decoration: none; color: #007bff; font-weight: bold; }
+h1 { color: #2c3e50; border-left: 5px solid #007bff; padding-left: 15px; }
+.report-card { 
+  background: #fff; border: 1px solid #ddd; padding: 15px; 
+  margin-bottom: 10px; border-radius: 4px; display: block;
+}
